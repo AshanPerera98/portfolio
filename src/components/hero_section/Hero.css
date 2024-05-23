@@ -1,0 +1,72 @@
+section.dark-bg {
+  background-color: #000000;
+}
+
+.main-block {
+  border-left: 4px solid #14ffec;
+  padding-left: 24px;
+}
+
+.main-name,
+.main-tag,
+.main-description,
+.CV-button {
+  font-family: "Jost", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+  color: #ffffff;
+}
+
+.main-name {
+  font-weight: 500;
+  font-size: 6rem;
+  line-height: 1;
+}
+
+.main-tag {
+  font-weight: 300;
+  font-size: 2.5rem;
+  line-height: 1;
+}
+
+.main-description {
+  margin-top: 32px;
+  font-weight: 300;
+  font-size: 1.5rem;
+  line-height: 1.1;
+  color: #cacaca;
+  max-width: 600px;
+
+  strong {
+    font-weight: 500;
+    color: #14ffec;
+  }
+}
+
+.CV-button {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  font-size: 1.5rem;
+  font-weight: 500;
+  color: #14ffec;
+  padding: 12px 24px;
+  border: 2px solid #14ffec;
+  border-radius: 8px;
+  margin-top: 76px;
+
+  &:hover {
+    background-color: #14ffec;
+    color: #000000;
+
+    .icon {
+      color: #0d7377;
+    }
+  }
+
+  .icon {
+    margin-left: 12px;
+    width: 1.5rem;
+    height: 1.5rem;
+  }
+}
