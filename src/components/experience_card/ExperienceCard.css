@@ -1,0 +1,75 @@
+.experience-card {
+  background-color: #212121;
+  border-radius: 16px;
+  padding: 24px 32px;
+
+  .company-logo {
+    margin-right: 24px;
+  }
+
+  .work-details {
+    margin-right: 16px;
+    /* max-width: 260px; */
+
+    .occupation {
+      font-size: 1.5rem;
+      color: #ffffff;
+      line-height: 1;
+    }
+
+    .comapny {
+      font-size: 1rem;
+      font-weight: 600;
+      color: #14ffec;
+      line-height: 1;
+      margin-top: 4px;
+    }
+
+    .period {
+      margin-top: 16px;
+    }
+  }
+
+  .devider {
+    margin-right: 16px;
+  }
+
+  .vertical-line {
+    height: 100%;
+    width: 0;
+    border-right: 1px solid #6b6b6b;
+  }
+
+  .company-brief {
+    color: #eeeeee;
+    display: flex;
+    align-items: center;
+  }
+
+  .controls {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 16px;
+
+    .control-icon {
+      cursor: pointer;
+      width: 36px;
+      height: 36px;
+      transition: 300ms ease-out;
+      color: #6b6b6b;
+
+      &:hover {
+        color: #14ffec;
+      }
+
+      &.expanded {
+        transform: rotate(180deg);
+      }
+    }
+  }
+
+  .expanded-content {
+    color: #cacaca;
+  }
+}
