@@ -1,0 +1,34 @@
+.blog-card {
+  background-color: #212121;
+  border-radius: 16px;
+  padding: 12px;
+
+  .blog-image {
+    border-radius: 8px;
+  }
+
+  .blog-content {
+    padding: 12px;
+    margin-top: 8px;
+
+    .blog-title {
+      font-size: 1rem;
+      color: #cacaca;
+      line-height: 1.5;
+      font-weight: 600;
+    }
+
+    .blog-tag-group {
+      margin-top: 16px;
+
+      .blog-tag {
+        background-color: #323232;
+        color: #cacaca;
+      }
+    }
+
+    .read-link {
+      color: #14ffec;
+    }
+  }
+}

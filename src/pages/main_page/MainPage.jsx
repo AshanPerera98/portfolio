@@ -3,6 +3,7 @@ import Hero from "../../sections/hero_section/Hero";
 import AboutMe from "../../sections/about_me/AboutMe";
 import Experience from "../../sections/experience/Experience";
 import Education from "../../sections/education/Education";
+import Blog from "../../sections/blog/Blog";
 
 function MainPage() {
   return (
@@ -11,6 +12,7 @@ function MainPage() {
       <AboutMe />
       <Experience />
       <Education />
+      <Blog />
     </div>
   );
 }
