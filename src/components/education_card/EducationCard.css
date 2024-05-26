@@ -1,0 +1,37 @@
+.education-card {
+  background-color: #212121;
+  border-radius: 16px;
+  padding: 24px 32px;
+
+  .institute-logo {
+    display: block;
+    max-width: 100%;
+    max-height: 100px;
+    width: auto;
+    height: auto;
+  }
+
+  .vertical-line {
+    height: 100%;
+    width: 0;
+    border-right: 1px solid #6b6b6b;
+  }
+
+  .qualification {
+    font-size: 1rem;
+    color: #ffffff;
+    line-height: 1;
+    font-weight: 600;
+  }
+
+  .institue {
+    font-size: 1rem;
+    color: #cacaca;
+    line-height: 1;
+    margin-top: 4px;
+  }
+
+  .duration {
+    margin-top: 16px;
+  }
+}

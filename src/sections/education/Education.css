@@ -1,0 +1,23 @@
+.education-block {
+  margin-top: 3rem;
+
+  &.centered {
+    display: grid;
+    justify-content: center;
+  }
+
+  .timeline-icon {
+    width: 23px;
+    height: 23px;
+    color: #0d7377;
+  }
+
+  .timeline .timeline-item .timeline-marker.is-primary {
+    background-color: #14ffec !important;
+    border-color: #14ffec !important;
+  }
+
+  .timeline .timeline-item::before {
+    background-color: #6b6b6b !important;
+  }
+}
