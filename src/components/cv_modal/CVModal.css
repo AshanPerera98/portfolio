@@ -1,0 +1,59 @@
+.modal-background {
+  background-color: rgba(0, 0, 0, 0.8);
+  backdrop-filter: blur(12px);
+}
+
+.cv-question {
+  font-family: "Jost", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+  color: #ffffff;
+  font-weight: 400;
+  font-size: 2.5rem;
+}
+
+.modal-content {
+  .button-grid {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-top: 5rem;
+  }
+
+  .or {
+    font-family: "Jost", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    color: #ffffff;
+    font-weight: 400;
+    font-size: 1.5rem;
+  }
+
+  .download-button {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    font-size: 1.5rem;
+    font-weight: 500;
+    color: #14ffec;
+    padding: 12px 24px;
+    border: 2px solid #14ffec;
+    border-radius: 8px;
+
+    &:hover {
+      background-color: #14ffec;
+      color: #000000;
+
+      .icon {
+        color: #0d7377;
+      }
+    }
+
+    .icon {
+      margin-left: 12px;
+      width: 1.5rem;
+      height: 1.5rem;
+    }
+  }
+}
