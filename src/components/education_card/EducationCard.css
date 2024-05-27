@@ -5,7 +5,7 @@
 
   .institute-logo {
     display: block;
-    max-width: 100%;
+    max-width: 150px;
     max-height: 100px;
     width: auto;
     height: auto;
@@ -15,6 +15,12 @@
     height: 100%;
     width: 0;
     border-right: 1px solid #6b6b6b;
+  }
+
+  .details-column{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
   }
 
   .qualification {

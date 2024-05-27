@@ -4,7 +4,18 @@
   padding: 24px 32px;
 
   .company-logo {
-    margin-right: 24px;
+    margin-right: 16px;
+    display: grid;
+    align-items: center;
+    justify-content: center;
+
+    img {
+      display: block;
+      max-width: 120px;
+      max-height: 80px;
+      width: auto;
+      height: auto;
+    }
   }
 
   .work-details {

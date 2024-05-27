@@ -12,6 +12,10 @@
     color: #0d7377;
   }
 
+  .timeline .timeline-item .timeline-content {
+    width: 100%;
+  }
+
   .timeline .timeline-item .timeline-marker.is-primary {
     background-color: #14ffec !important;
     border-color: #14ffec !important;
