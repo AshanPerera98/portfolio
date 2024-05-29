@@ -1,8 +1,8 @@
 import {
   FaGithub,
   FaLinkedin,
-  FaFacebook,
-  FaInstagram,
+  FaMedium,
+  FaBehance,
   FaYoutube,
 } from "react-icons/fa6";
 import profilePic from "./../../assets/ashan_top.webp";
@@ -10,6 +10,10 @@ import "./AboutMe.css";
 import SectionContainer from "./../../components/section_container/SectionContainer";
 
 function AboutMe() {
+  const onClickSocial = (url) => () => {
+    window.open(url, "_blank");
+  };
+
   return (
     <SectionContainer title="Wanna Know Me?" id="about">
       <div className="container about-block">
@@ -18,11 +22,39 @@ function AboutMe() {
             <img src={profilePic} className="profile-pic" />
             <div className="social-icon-section">
               <div className="social-icon-group">
-                <FaGithub className="social-icon" />
-                <FaLinkedin className="social-icon" />
-                <FaFacebook className="social-icon" />
-                <FaInstagram className="social-icon" />
-                <FaYoutube className="social-icon" />
+                <FaLinkedin
+                  role="button"
+                  onClick={onClickSocial(
+                    "https://www.linkedin.com/in/ashan-perera-b00742195/"
+                  )}
+                  className="social-icon"
+                />
+                <FaGithub
+                  role="button"
+                  onClick={onClickSocial("https://github.com/AshanPerera98")}
+                  className="social-icon"
+                />
+                <FaMedium
+                  role="button"
+                  onClick={onClickSocial(
+                    "https://medium.com/@ashantiwankaperera"
+                  )}
+                  className="social-icon"
+                />
+                <FaBehance
+                  role="button"
+                  onClick={onClickSocial(
+                    "https://www.behance.net/ashanperera1"
+                  )}
+                  className="social-icon"
+                />
+                <FaYoutube
+                  role="button"
+                  onClick={onClickSocial(
+                    "https://www.youtube.com/@ashanperera1703"
+                  )}
+                  className="social-icon"
+                />
               </div>
             </div>
           </div>
@@ -37,7 +69,7 @@ function AboutMe() {
             </p>
             <div className="columns details-section">
               <div className="column">
-                <div className="columns is-mobile">
+                <div className="columns ">
                   <div className="column is-two-fifths">
                     <p className="strong-details">Name :</p>
                   </div>
@@ -45,7 +77,7 @@ function AboutMe() {
                     <p className="normal-details">Ashan Perera</p>
                   </div>
                 </div>
-                <div className="columns is-mobile">
+                <div className="columns">
                   <div className="column is-two-fifths">
                     <p className="strong-details">Pronouns :</p>
                   </div>
@@ -53,7 +85,7 @@ function AboutMe() {
                     <p className="normal-details">He / Him</p>
                   </div>
                 </div>
-                <div className="columns is-mobile">
+                <div className="columns">
                   <div className="column is-two-fifths">
                     <p className="strong-details">Ethnicity :</p>
                   </div>
@@ -61,7 +93,7 @@ function AboutMe() {
                     <p className="normal-details">Sri Lankan (Asian)</p>
                   </div>
                 </div>
-                <div className="columns is-mobile">
+                <div className="columns">
                   <div className="column is-two-fifths">
                     <p className="strong-details">DOB :</p>
                   </div>
@@ -71,7 +103,7 @@ function AboutMe() {
                 </div>
               </div>
               <div className="column">
-                <div className="columns is-mobile">
+                <div className="columns">
                   <div className="column is-one-quarter">
                     <p className="strong-details">Email :</p>
                   </div>
@@ -81,7 +113,7 @@ function AboutMe() {
                     </p>
                   </div>
                 </div>
-                <div className="columns is-mobile">
+                <div className="columns">
                   <div className="column is-one-quarter">
                     <p className="strong-details">Mobile :</p>
                   </div>
@@ -89,7 +121,7 @@ function AboutMe() {
                     <p className="normal-details">(+94) 77 254 0901</p>
                   </div>
                 </div>
-                <div className="columns is-mobile">
+                <div className="columns">
                   <div className="column is-one-quarter">
                     <p className="strong-details">Based :</p>
                   </div>

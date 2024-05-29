@@ -4,6 +4,7 @@ import AboutMe from "../../sections/about_me/AboutMe";
 import Experience from "../../sections/experience/Experience";
 import Education from "../../sections/education/Education";
 import Blog from "../../sections/blog/Blog";
+import Footer from "../../components/footer/Footer";
 
 function MainPage() {
   return (
@@ -13,6 +14,7 @@ function MainPage() {
       <Experience />
       <Education />
       {/* <Blog /> */}
+      <Footer />
     </div>
   );
 }

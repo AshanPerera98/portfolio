@@ -43,6 +43,7 @@
   width: 32px;
   height: 32px;
   transition: 300ms ease-out;
+  cursor: pointer;
 
   &:hover {
     color: #14ffec;

@@ -1,0 +1,15 @@
+.footer {
+  background-color: #000000;
+
+  p {
+    font-family: "Jost", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    color: #cacaca;
+
+    strong {
+      /* color: #14ffec; */
+      color: #ffffff;
+    }
+  }
+}
