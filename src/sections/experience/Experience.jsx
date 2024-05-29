@@ -6,7 +6,7 @@ import ExperienceData from "./ExperienceData";
 
 function Experience() {
   return (
-    <SectionContainer title="Experience">
+    <SectionContainer title="Experience" id="experience">
       <div className="experience-block">
         {ExperienceData.map((data, index) => {
           return <ExperienceCard key={index} data={data} />;

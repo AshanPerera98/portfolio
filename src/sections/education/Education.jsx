@@ -25,43 +25,11 @@ function Education() {
             </div>
           );
         })}
-        {/* <div className="timeline-item">
-          <div className="timeline-marker is-primary is-image is-24x24">
-            <TbCircleCheckFilled className="timeline-icon" />
-          </div>
-          <div className="timeline-content">
-            <EducationCard isLeft={aligned ? true : true} />
-          </div>
-        </div>
-        <div className="timeline-item">
-          <div className="timeline-marker is-primary is-image is-24x24">
-            <TbCircleCheckFilled className="timeline-icon" />
-          </div>
-          <div className="timeline-content">
-            <EducationCard isLeft={aligned ? true : false} />
-          </div>
-        </div>
-        <div className="timeline-item">
-          <div className="timeline-marker is-primary is-image is-24x24">
-            <TbCircleCheckFilled className="timeline-icon" />
-          </div>
-          <div className="timeline-content">
-            <EducationCard isLeft={aligned ? true : true} />
-          </div>
-        </div>
-        <div className="timeline-item">
-          <div className="timeline-marker is-primary is-image is-24x24">
-            <TbCircleCheckFilled className="timeline-icon" />
-          </div>
-          <div className="timeline-content">
-            <EducationCard isLeft={aligned ? true : false} />
-          </div>
-        </div> */}
       </>
     );
   };
   return (
-    <SectionContainer title="Education">
+    <SectionContainer title="Education" id="education">
       <div className="container education-block is-hidden-touch">
         <div className="timeline is-centered">{renderTimeline(false)}</div>
       </div>

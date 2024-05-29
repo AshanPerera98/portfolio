@@ -2,6 +2,7 @@ import { FaFileArrowDown } from "react-icons/fa6";
 import "./Hero.css";
 import { useState } from "react";
 import CVModal from "../../components/cv_modal/CVModal";
+import NavBar from "../../components/navbar/NavBar";
 
 function Hero() {
   const [CVmodal, setCVmodal] = useState(false);
@@ -10,7 +11,9 @@ function Hero() {
   };
   return (
     <section className="hero is-fullheight dark-bg">
-      <div className="hero-head"></div>
+      <div className="hero-head">
+        <NavBar />
+      </div>
       <div className="hero-body">
         <div className="container has-text-left">
           <div className="main-block">

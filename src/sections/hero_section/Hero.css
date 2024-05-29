@@ -1,5 +1,8 @@
 section.dark-bg {
-  background-color: #000000;
+  /* background-color: #000000; */
+  background-image: url("./../../assets/hero_cover.webp");
+  background-size: cover;
+  background-position: right;
 }
 
 .main-block {

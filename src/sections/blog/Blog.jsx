@@ -32,7 +32,7 @@ function Blog() {
 
   return (
     <>
-      <SectionContainer title="Blog">
+      <SectionContainer title="Blog" id="blog">
         <div className="container blog-block">
           <div className="columns is-variable is-6 is-multiline">
             {blogObj.map((blog, index) => {

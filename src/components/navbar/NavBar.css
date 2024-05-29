@@ -1,0 +1,25 @@
+.custom-navbar {
+  background-color: rgba(0, 0, 0, 0.5) !important;
+  backdrop-filter: blur(20px);
+
+  font-family: "Jost", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+
+  .custom-logo {
+    max-height: 2.5rem;
+  }
+
+  .navbar-burger {
+    color: #14ffec;
+  }
+
+  .navbar-item {
+    border-radius: 4px;
+    transition: 300ms ease-out;
+    &:hover {
+      background-color: #212121 !important;
+      color: #14ffec !important;
+    }
+  }
+}

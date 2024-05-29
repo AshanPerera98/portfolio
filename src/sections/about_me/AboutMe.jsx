@@ -11,7 +11,7 @@ import SectionContainer from "./../../components/section_container/SectionContai
 
 function AboutMe() {
   return (
-    <SectionContainer title="Wanna Know Me?">
+    <SectionContainer title="Wanna Know Me?" id="about">
       <div className="container about-block">
         <div className="columns is-desktop">
           <div className="column is-one-third-fullhd is-one-third-widescreen is-one-third-desktop">
