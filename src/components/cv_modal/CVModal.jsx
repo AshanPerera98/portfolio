@@ -1,5 +1,7 @@
 /* eslint-disable react/prop-types */
 import { FaFileArrowDown } from "react-icons/fa6";
+import DeveloperCV from "./../../assets/CVs/Ashan_Perera_Developer_CV.pdf";
+import DesignerCV from "./../../assets/CVs/Ashan_Perera_Designer_CV.pdf";
 import "./CVModal.css";
 
 function CVModal(props) {
@@ -9,13 +11,17 @@ function CVModal(props) {
       <div className="modal-content has-text-centered">
         <p className="cv-question">Which Ashan are you looking for?</p>
         <div className="button-grid">
-          <button className="download-button">
-            Developer <FaFileArrowDown className="icon" />
-          </button>
+          <a href={DeveloperCV} download={""}>
+            <button className="download-button">
+              Developer <FaFileArrowDown className="icon" />
+            </button>
+          </a>
           <p className="or">or</p>
-          <button className="download-button">
-            Designer <FaFileArrowDown className="icon" />
-          </button>
+          <a href={DesignerCV} download={""}>
+            <button className="download-button">
+              Designer <FaFileArrowDown className="icon" />
+            </button>
+          </a>
         </div>
       </div>
       <button

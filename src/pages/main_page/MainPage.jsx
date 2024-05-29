@@ -13,7 +13,7 @@ function MainPage() {
       <AboutMe />
       <Experience />
       <Education />
-      {/* <Blog /> */}
+      <Blog />
       <Footer />
     </div>
   );
