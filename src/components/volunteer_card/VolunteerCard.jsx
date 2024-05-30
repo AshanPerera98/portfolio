@@ -2,7 +2,7 @@
 import "./VolunteerCard.css";
 
 function VolunteerCard(props) {
-  const { logo, name, organizzation, from, to, points } = props.data;
+  const { logo, name, organization, from, to, points } = props.data;
   return (
     <div className="container volunteer-card">
       <div className="columns">
@@ -11,7 +11,7 @@ function VolunteerCard(props) {
         </div>
         <div className="column is-4 has-text-left volunteer-details">
           <p className="name">{name}</p>
-          <p className="organization">{organizzation}</p>
+          <p className="organization">{organization}</p>
           <p className="period">{`${from} - ${to}`}</p>
         </div>
         <div className="column is-narrow is-hidden-mobile devider">
