@@ -9,7 +9,7 @@ function ExperienceCard(props) {
     setExpanded(!expanded);
   };
 
-  const { logo, position, name, from, to, dis, points } = props.data;
+  const { logo, position, name, from, to, dis, points, stack } = props.data;
 
   return (
     <div className="container experience-card">
@@ -36,13 +36,24 @@ function ExperienceCard(props) {
         </div>
       </div>
       {expanded && (
-        <div className="content expanded-content has-text-left">
-          <ul>
-            {points.map((point, index) => {
-              return <li key={index}>{point}</li>;
+        <>
+          <div className="tags stack-tag-group">
+            {stack.map((tag, index) => {
+              return (
+                <span className="tag stack-tag" key={index}>
+                  {tag}
+                </span>
+              );
             })}
-          </ul>
-        </div>
+          </div>
+          <div className="content expanded-content has-text-left">
+            <ul>
+              {points.map((point, index) => {
+                return <li key={index}>{point}</li>;
+              })}
+            </ul>
+          </div>
+        </>
       )}
     </div>
   );

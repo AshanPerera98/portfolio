@@ -95,14 +95,16 @@ function AboutMe() {
                     <p className="normal-details">Sri Lankan (Asian)</p>
                   </div>
                 </div>
-                <div className="columns">
+                {/* <div className="columns">
                   <div className="column is-two-fifths">
                     <p className="strong-details">DOB :</p>
                   </div>
                   <div className="column">
-                    <p className="normal-details">12th March 1998</p>
+                    <p className="normal-details">
+                      12<sup>th</sup> March 1998
+                    </p>
                   </div>
-                </div>
+                </div> */}
               </div>
               <div className="column">
                 <div className="columns">
@@ -115,14 +117,14 @@ function AboutMe() {
                     </p>
                   </div>
                 </div>
-                <div className="columns">
+                {/* <div className="columns">
                   <div className="column is-one-quarter">
                     <p className="strong-details">Mobile :</p>
                   </div>
                   <div className="column">
                     <p className="normal-details">(+94) 77 254 0901</p>
                   </div>
-                </div>
+                </div> */}
                 <div className="columns">
                   <div className="column is-one-quarter">
                     <p className="strong-details">Based :</p>

@@ -80,6 +80,11 @@
     }
   }
 
+  .stack-tag {
+    background-color: #323232;
+    color: #cacaca;
+  }
+
   .expanded-content {
     color: #cacaca;
   }
