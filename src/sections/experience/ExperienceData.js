@@ -23,7 +23,7 @@ const ExperienceData = [
     name: "Search Worldwide (Pvt) Ltd",
     from: "2021 May",
     to: "2022 Feb",
-    dis: "Worked as a part-time graphics designer for a small digital marketing startup engaging closely with multiple local and foreign clients to bring their product ideas to life",
+    dis: "Worked as a part-time graphics designer for a digital marketing startup engaging closely with multiple local and foreign clients to bring their product ideas to life",
     points: [
       "Designed logos for multiple local and foreign clients based on the requirements.",
       "Designed posters for multiple digital advertisement campaigns.",
@@ -38,7 +38,7 @@ const ExperienceData = [
     name: "Blendpach Systems",
     from: "2020 May",
     to: "2021 Aug",
-    dis: "Worked as a part-time fullstack engineer for a small startup following from client meetings and requirement gathering to design and planing all the way to development and deployment of the product",
+    dis: "Worked as a part-time fullstack engineer for a startup following from client meetings and requirement gathering to design and planing all the way to development and deployment of the product",
     points: [
       "Worked on a project of ledger handling and client management system named e-Secretary using MySQL, PHP, and Codeigniter with MVC architecture.",
       "Worked as the frontend developer for a trading platform developed using ReactJS with Redux.",

@@ -17,7 +17,7 @@ function BlogCard(data) {
         <div className="blog-content">
           <p className="blog-title">{data.blog.title}</p>
           <div className="tags blog-tag-group">
-            {data.blog.category.map((tag, index) => {
+            {data.blog.categories.map((tag, index) => {
               return (
                 <span className="tag blog-tag" key={index}>
                   {tag}
