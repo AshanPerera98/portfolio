@@ -1,0 +1,7 @@
+.volunteering-block {
+  margin-top: 3rem;
+
+  & > :not(:last-child) {
+    margin-bottom: 32px;
+  }
+}

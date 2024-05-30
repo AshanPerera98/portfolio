@@ -16,6 +16,12 @@
 html {
   scroll-behavior: smooth;
 }
+
+body {
+  iframe {
+    display: none;
+  }
+}
 /* 
 a {
   font-weight: 500;

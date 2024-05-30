@@ -8,7 +8,7 @@ function BlogCard(data) {
     const urlRegex = /(https?:\/\/[^ ]+)(?=")/;
     const match = data.blog.content.match(urlRegex);
     setImgUrl(match[0]);
-  }, []);
+  }, [data]);
 
   return (
     <div className="column is-half-tablet is-one-third-desktop is-one-third-widescreen is-one-third-fullhd">
